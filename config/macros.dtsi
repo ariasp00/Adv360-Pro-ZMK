@@ -2,7 +2,7 @@ macro_test: macro_test{
 compatible = "zmk,behavior-macro";
 label = "macro_test";
 #binding-cells = <0>;
-bindings = <&kp LS(X)>, <&kp RS>, <&kp LC>;
+bindings = <&kp LS(X)>;
 };
 macro_cut: macro_cut{
 compatible = "zmk,behavior-macro";
