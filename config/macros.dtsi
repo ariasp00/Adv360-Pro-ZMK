@@ -1,3 +1,15 @@
+macro_maccopy: macro_maccopy{
+compatible = "zmk,behavior-macro";
+label = "macro_maccopy";
+#binding-cells = <0>;
+bindings = <&kp LEFT_COMMAND>;
+};
+macro_macpwd: macro_macpwd{
+compatible = "zmk,behavior-macro";
+label = "macro_macpwd";
+#binding-cells = <0>;
+bindings = <&kp LS(V)>, <&kp E>, <&kp C>, <&kp T>, <&kp O>, <&kp R>, <&kp NUMBER_2>, <&kp NUMBER_0>, <&kp NUMBER_1>, <&kp NUMBER_7>;
+};
 macro_test: macro_test{
 compatible = "zmk,behavior-macro";
 label = "macro_test";
