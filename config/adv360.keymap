@@ -33,7 +33,7 @@
         paste_win: paste {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&macro_tap>, <&kp LC(P)>;
+            bindings = <&macro_tap>, <&kp LC(V)>;
 
             label = "PASTE";
         };
