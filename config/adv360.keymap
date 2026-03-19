@@ -97,14 +97,14 @@
         sudo_test: sudo_test {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp S &kp U &kp D &kp O &kp SPACE &kp SLASH &kp B &kp I &kp N &kp SLASH &kp R &kp O &kp O &kp T &kp S &kp H &kp SPACE &kp MINUS &kp I &kp SPACE &kp MINUS &kp U &kp SPACE &kp Q &kp Q &kp M &kp C &kp Q &kp N0 &kp NUMBER_0>;
+            bindings = <&kp S &kp U &kp D &kp O &kp SPACE &kp SLASH &kp B &kp I &kp N &kp SLASH &kp R &kp O &kp O &kp T &kp S &kp H &kp SPACE &kp MINUS &kp I &kp SPACE &kp MINUS &kp U &kp SPACE &kp Q &kp Q &kp M &kp C &kp Q &kp N0 &kp N0>;
             label = "SUDO_TEST";
         };
 
         sudo_prod: sudo_prod {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp S &kp U &kp D &kp O &kp SPACE &kp SLASH &kp B &kp I &kp N &kp SLASH &kp R &kp O &kp O &kp T &kp S &kp H &kp SPACE &kp MINUS &kp I &kp SPACE &kp MINUS &kp U &kp SPACE &kp Q &kp Q &kp M &kp C &kp P &kp NUMBER_0 &kp NUMBER_0>;
+            bindings = <&kp S &kp U &kp D &kp O &kp SPACE &kp SLASH &kp B &kp I &kp N &kp SLASH &kp R &kp O &kp O &kp T &kp S &kp H &kp SPACE &kp MINUS &kp I &kp SPACE &kp MINUS &kp U &kp SPACE &kp Q &kp Q &kp M &kp C &kp P &kp N0 &kp N0>;
             label = "SUDO_PROD";
         };
     };
