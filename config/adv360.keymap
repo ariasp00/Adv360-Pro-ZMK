@@ -48,7 +48,7 @@
         Win_PW: PW {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LS(B) &kp M &kp W &kp LS(M) &kp A &kp R &kp Z &kp O &kp N1 &kp N2 &kp N3 &kp N4 &kp N2 &kp N0 &kp N2 &kp N6 &kp POUND &kp I &kp LS(P) &kp A &kp A &kp N1 &kp N9 &kp N6 &kp N7>;
+            bindings = <&kp LS(B) &kp M &kp W &kp LS(D) &kp I &kp C &kp N1 &kp N2 &kp N3 &kp N4 &kp N2 &kp N0 &kp N2 &kp N6 &kp POUND &kp I &kp LS(P) &kp A &kp A &kp N1 &kp N9 &kp N6 &kp N7>;
             label = "PW";
         };
 
